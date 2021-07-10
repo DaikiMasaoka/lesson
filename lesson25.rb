@@ -5,6 +5,6 @@
 # あなたの現在のフォロワー数はAでフォロー数はBです。
 # フォロー数はあといくつ増やせますか?
 
-# A,B = gets.split.map(&:to_i)
+A,B = gets.split.map(&:to_i)
 
-# puts (2 * A + 100) - B
+puts (2 * A + 100) - B
